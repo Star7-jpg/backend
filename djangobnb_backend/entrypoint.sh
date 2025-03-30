@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ "$DATABASE" = "postgres" ]
+if [ "$DATABASE" = "postgres" ] 
 then
     echo "Check if database is running..."
 
@@ -8,7 +8,7 @@ then
         sleep 0.1
     done
 
-    echo "The database is up and running :D"
+    echo "The database is up and running :-D"
 fi
 
 python manage.py makemigrations
